@@ -8,16 +8,22 @@
 
 import Foundation
 
-class Favorites: ObservableObject {
+class Favorites: ObservableObject, Codable {
     // the actual resorts the user has favorited
     private var resorts: Set<String>
 
     // the key we're using to read/write in UserDefaults
-    private let saveKey = "Favorites"
+    private static let saveKey = "Favorites"
 
     init() {
         // load our saved data
-
+      if let items = UserDefaults.standard.data(forKey: Favorites.saveKey) {
+            let decoder = JSONDecoder()
+            if let decoded = try? decoder.decode(Set<String>.self, from: items) {
+                self.resorts = decoded
+                return
+            }
+        }
         // still here? Use an empty array
         self.resorts = []
     }
@@ -43,5 +49,8 @@ class Favorites: ObservableObject {
 
     func save() {
         // write out our data
+        if let encoded = try? JSONEncoder().encode(resorts) {
+            UserDefaults.standard.set(encoded, forKey: Favorites.saveKey)
+        }
     }
 }
