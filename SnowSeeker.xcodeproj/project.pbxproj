@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2027B9C23BFB29300E2775F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2027B9B23BFB29300E2775F /* AppDelegate.swift */; };
+		F2027B9E23BFB29300E2775F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2027B9D23BFB29300E2775F /* SceneDelegate.swift */; };
+		F2027BA023BFB29300E2775F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2027B9F23BFB29300E2775F /* ContentView.swift */; };
+		F2027BA223BFB29400E2775F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2027BA123BFB29400E2775F /* Assets.xcassets */; };
+		F2027BA523BFB29400E2775F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2027BA423BFB29400E2775F /* Preview Assets.xcassets */; };
+		F2027BA823BFB29400E2775F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2027BA623BFB29400E2775F /* LaunchScreen.storyboard */; };
+		F21B447E23C2AFD60062D9F1 /* Facility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B447D23C2AFD60062D9F1 /* Facility.swift */; };
+		F21B448023C2B23E0062D9F1 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B447F23C2B23E0062D9F1 /* Favorites.swift */; };
+		F2FFC23523C0FAC800F6ECD2 /* resorts.json in Resources */ = {isa = PBXBuildFile; fileRef = F2FFC23423C0FAC800F6ECD2 /* resorts.json */; };
+		F2FFC23823C0FAE600F6ECD2 /* Resort.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FFC23723C0FAE600F6ECD2 /* Resort.swift */; };
+		F2FFC23B23C0FBD200F6ECD2 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FFC23A23C0FBD200F6ECD2 /* Bundle-Decodable.swift */; };
+		F2FFC23E23C0FD5100F6ECD2 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FFC23D23C0FD5100F6ECD2 /* WelcomeView.swift */; };
+		F2FFC24023C0FF5A00F6ECD2 /* ResortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FFC23F23C0FF5A00F6ECD2 /* ResortView.swift */; };
+		F2FFC24223C0FFD600F6ECD2 /* SkiDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FFC24123C0FFD600F6ECD2 /* SkiDetailsView.swift */; };
+		F2FFC24423C1002C00F6ECD2 /* ResortDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FFC24323C1002C00F6ECD2 /* ResortDetailsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2027B9823BFB29300E2775F /* SnowSeeker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowSeeker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2027B9B23BFB29300E2775F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2027B9D23BFB29300E2775F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F2027B9F23BFB29300E2775F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F2027BA123BFB29400E2775F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2027BA423BFB29400E2775F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2027BA723BFB29400E2775F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2027BA923BFB29400E2775F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F21B447D23C2AFD60062D9F1 /* Facility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facility.swift; sourceTree = "<group>"; };
+		F21B447F23C2B23E0062D9F1 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		F2FFC23423C0FAC800F6ECD2 /* resorts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = resorts.json; sourceTree = "<group>"; };
+		F2FFC23723C0FAE600F6ECD2 /* Resort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resort.swift; sourceTree = "<group>"; };
+		F2FFC23A23C0FBD200F6ECD2 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		F2FFC23D23C0FD5100F6ECD2 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		F2FFC23F23C0FF5A00F6ECD2 /* ResortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortView.swift; sourceTree = "<group>"; };
+		F2FFC24123C0FFD600F6ECD2 /* SkiDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkiDetailsView.swift; sourceTree = "<group>"; };
+		F2FFC24323C1002C00F6ECD2 /* ResortDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortDetailsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2027B9523BFB29300E2775F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2027B8F23BFB29300E2775F = {
+			isa = PBXGroup;
+			children = (
+				F2027B9A23BFB29300E2775F /* SnowSeeker */,
+				F2027B9923BFB29300E2775F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2027B9923BFB29300E2775F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2027B9823BFB29300E2775F /* SnowSeeker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2027B9A23BFB29300E2775F /* SnowSeeker */ = {
+			isa = PBXGroup;
+			children = (
+				F2FFC23923C0FBC200F6ECD2 /* Extensions */,
+				F2FFC23623C0FAD900F6ECD2 /* Model */,
+				F2FFC23C23C0FC3000F6ECD2 /* View */,
+				F2FFC23423C0FAC800F6ECD2 /* resorts.json */,
+				F2027B9B23BFB29300E2775F /* AppDelegate.swift */,
+				F2027B9D23BFB29300E2775F /* SceneDelegate.swift */,
+				F2027BA123BFB29400E2775F /* Assets.xcassets */,
+				F2027BA623BFB29400E2775F /* LaunchScreen.storyboard */,
+				F2027BA923BFB29400E2775F /* Info.plist */,
+				F2027BA323BFB29400E2775F /* Preview Content */,
+			);
+			path = SnowSeeker;
+			sourceTree = "<group>";
+		};
+		F2027BA323BFB29400E2775F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F2027BA423BFB29400E2775F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F2FFC23623C0FAD900F6ECD2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2FFC23723C0FAE600F6ECD2 /* Resort.swift */,
+				F21B447F23C2B23E0062D9F1 /* Favorites.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2FFC23923C0FBC200F6ECD2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F2FFC23A23C0FBD200F6ECD2 /* Bundle-Decodable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F2FFC23C23C0FC3000F6ECD2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2027B9F23BFB29300E2775F /* ContentView.swift */,
+				F2FFC23D23C0FD5100F6ECD2 /* WelcomeView.swift */,
+				F2FFC23F23C0FF5A00F6ECD2 /* ResortView.swift */,
+				F2FFC24123C0FFD600F6ECD2 /* SkiDetailsView.swift */,
+				F2FFC24323C1002C00F6ECD2 /* ResortDetailsView.swift */,
+				F21B447D23C2AFD60062D9F1 /* Facility.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2027B9723BFB29300E2775F /* SnowSeeker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2027BAC23BFB29400E2775F /* Build configuration list for PBXNativeTarget "SnowSeeker" */;
+			buildPhases = (
+				F2027B9423BFB29300E2775F /* Sources */,
+				F2027B9523BFB29300E2775F /* Frameworks */,
+				F2027B9623BFB29300E2775F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnowSeeker;
+			productName = SnowSeeker;
+			productReference = F2027B9823BFB29300E2775F /* SnowSeeker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2027B9023BFB29300E2775F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Mario Alberto Barragán Espinosa";
+				TargetAttributes = {
+					F2027B9723BFB29300E2775F = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = F2027B9323BFB29300E2775F /* Build configuration list for PBXProject "SnowSeeker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2027B8F23BFB29300E2775F;
+			productRefGroup = F2027B9923BFB29300E2775F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2027B9723BFB29300E2775F /* SnowSeeker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2027B9623BFB29300E2775F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2027BA823BFB29400E2775F /* LaunchScreen.storyboard in Resources */,
+				F2027BA523BFB29400E2775F /* Preview Assets.xcassets in Resources */,
+				F2FFC23523C0FAC800F6ECD2 /* resorts.json in Resources */,
+				F2027BA223BFB29400E2775F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2027B9423BFB29300E2775F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2027B9C23BFB29300E2775F /* AppDelegate.swift in Sources */,
+				F2FFC23E23C0FD5100F6ECD2 /* WelcomeView.swift in Sources */,
+				F21B447E23C2AFD60062D9F1 /* Facility.swift in Sources */,
+				F2027B9E23BFB29300E2775F /* SceneDelegate.swift in Sources */,
+				F2FFC24023C0FF5A00F6ECD2 /* ResortView.swift in Sources */,
+				F21B448023C2B23E0062D9F1 /* Favorites.swift in Sources */,
+				F2FFC23B23C0FBD200F6ECD2 /* Bundle-Decodable.swift in Sources */,
+				F2FFC23823C0FAE600F6ECD2 /* Resort.swift in Sources */,
+				F2FFC24423C1002C00F6ECD2 /* ResortDetailsView.swift in Sources */,
+				F2027BA023BFB29300E2775F /* ContentView.swift in Sources */,
+				F2FFC24223C0FFD600F6ECD2 /* SkiDetailsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2027BA623BFB29400E2775F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2027BA723BFB29400E2775F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2027BAA23BFB29400E2775F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2027BAB23BFB29400E2775F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2027BAD23BFB29400E2775F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SnowSeeker/Preview Content\"";
+				DEVELOPMENT_TEAM = D4ZUPHQCZR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SnowSeeker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mario.SnowSeeker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2027BAE23BFB29400E2775F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SnowSeeker/Preview Content\"";
+				DEVELOPMENT_TEAM = D4ZUPHQCZR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SnowSeeker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mario.SnowSeeker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2027B9323BFB29300E2775F /* Build configuration list for PBXProject "SnowSeeker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2027BAA23BFB29400E2775F /* Debug */,
+				F2027BAB23BFB29400E2775F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2027BAC23BFB29400E2775F /* Build configuration list for PBXNativeTarget "SnowSeeker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2027BAD23BFB29400E2775F /* Debug */,
+				F2027BAE23BFB29400E2775F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2027B9023BFB29300E2775F /* Project object */;
+}
